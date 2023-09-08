@@ -5,6 +5,8 @@ let calculator = 0;
 let queue = 0;
 let secondButton;
 let counter = 0;
+
+// main function with general functions running inside
 function processAllInf(){
     
     secondButton = document.querySelector('.thisButton')
@@ -16,13 +18,13 @@ function processAllInf(){
         secondButton.style.display = 'none';
     })
 }
-
+// getting all information from an api fumction
 async function getAllInf(difficulty, number, topic){
     const response = await fetch(`https://opentdb.com/api.php?amount=${number}&category=${topic}&difficulty=${difficulty}&type=multiple`);
     const data = await response.json();
     updateQuiz(data);
 }
-
+// the most important function combining inside updating, changing, selecting and many other things
 function updateQuiz(data){
     document.querySelector("#question").innerText = `${data.results[0].question}`
     document.querySelector(".caution").style.display = "none";
@@ -70,11 +72,5 @@ function updateQuiz(data){
     
 }   
 
-// function randomAnswer(){
-//     let rightAnswer = data.correct_answer;
-//     let wrongAnswer = data.incorrect_answers
-//     let allAnswers = wrongAnswer
-//     allAnswers.splice(Math.floor(Math.random()*(wrongAnswer.length + 1)),0, rightAnswer)
-// }
-
+// running this one we set up the wholw process
 processAllInf()
