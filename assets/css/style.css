@@ -125,3 +125,11 @@ h1{
     box-shadow: 1px 2px 1px 0.5px #bbb;
     margin-top: 40px;
 }
+.quizWrapper{
+    display: none;
+}
+.caution{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
