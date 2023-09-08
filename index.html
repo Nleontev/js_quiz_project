@@ -12,21 +12,56 @@
     <div class="container">
         <div class="performance column">
             <div class="perfData">
-                <h1>Quiz</h1>
+                <h1>QUIZ</h1>
                 <p>Test your mind and intelligence!</p>
             </div>
             <div class="perfStat">
-                <p>Average number of correct user answers</p>
+                <p class="rating">Average user rating of our quiz</p>
                 <p class="inf first">2-4</p>
-                <p class="inf second"><5-7</p>
+                <p class="inf second">5-7</p>
                 <p class="inf third">8-10</p>
             </div>
         </div>
         <div class="chooseCharac column colMargin">
+            <h2>Select your quiz type</h2>
+            <div class="options">
+                <label for="category">Select Category:</label>
+                <select class="option_select" name="forCategory" id="category">
+                    <option value="">Select an option</option>
+                    <option>Geography</option>
+                    <option>History</option>
+                    <option>Art</option>
+                    <option>Animals</option>
+                </select>
+                
+                <label for="difficulty">Select Difficulty:</label>
+                <select class="option_select" name="forDifficulty" id="difficulty">
+                    <option value="">Select an option</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
 
+                <label for="amount">Number of Questions:</label>
+                <select class="option_select" name="forNumber" id="amount">
+                    <option value="">Select an option</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <button class="forButtons thisButton">Get a quiz</button>
+            </div>
         </div>
         <div class="quizBody column colMargin">
-
+            <h2>Everything starts here!</h2>
+            <p>Question</p>
+            <div class="answers">
+                <button class="forButtons answer">fdjhfs</button>
+                <button class="forButtons answer">dsfsdfds</button>
+                <button class="forButtons answer">dfsdsfsd</button>
+                <button class="forButtons answer">dfsfsdf</button>
+            </div>
         </div>
     </div>
 

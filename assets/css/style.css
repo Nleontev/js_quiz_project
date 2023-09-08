@@ -13,9 +13,7 @@ body{
 }
 .performance{
     text-align: center;
-    padding: 10px;
     font-size: 30px;
-   
 }
 h1{
     font-size: 55px;
@@ -28,19 +26,29 @@ h1{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+.perfStat{
+    margin-top: 75px;
+}
+.rating{
+    font-size: 25px;
+}
 .column {
     background-color: #fff;
     flex: 1 1 0px; 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
   }
 .colMargin{
     margin-left: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
 }
+
 .inf{
   height: 40px;
   background-color: red;
   animation-name: play;
-  animation-duration: 4s;
+  animation-duration: 2s;
   border-radius: 20px;
   display: flex;
   padding: 10px;
@@ -48,21 +56,68 @@ h1{
 }
 .first{
     width: 80%;
-    background-color: red;
+    background-color: #ffa8B6;
 }
 .second{
     width: 60%;
-    background-color: yellow
+    background-color: #edf756;
 }
 .third{
     width: 30%;
-    background-color: green;
+    background-color: #9df9ef;
 }
 @keyframes play {
     0%   {
         width: 20%;
 }
-    100% {
-        transition: 3s ease-out;
 }
+
+
+.options{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.option_select{
+    appearance: none;
+    padding: 10px 30px 10px 15px;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.forButtons{
+    border-radius: 0.5rem;
+    outline: 0;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background: none;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 20px;
+}
+.thisButton{
+    border: none;
+    box-shadow: 1px 2px 1px 0.5px #bbb;
+}
+
+.quizBody p{
+    margin-top: 50px;
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+}
+.answer{
+    outline: 5px;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);;
+    color: black;
+    width: 100%;
+}
+.answer:hover{
+    transition: 1s;
+    color: #0049B7;
+    border-color: white;
 }
