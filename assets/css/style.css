@@ -13,12 +13,12 @@ body{
 }
 .performance{
     text-align: center;
+    padding: 10px;
+    font-size: 30px;
+   
 }
 h1{
     font-size: 55px;
-}
-.performance{
-    font-size: 30px
 }
 .chooseCharac{
     border-top-left-radius: 50px;
@@ -37,8 +37,7 @@ h1{
     margin-left: 20px;
 }
 .inf{
-    width: 100px;
-  height: 30px;
+  height: 40px;
   background-color: red;
   animation-name: play;
   animation-duration: 4s;
@@ -47,9 +46,23 @@ h1{
   padding: 10px;
   align-items: center;
 }
+.first{
+    width: 80%;
+    background-color: red;
+}
+.second{
+    width: 60%;
+    background-color: yellow
+}
+.third{
+    width: 30%;
+    background-color: green;
+}
 @keyframes play {
-    0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
+    0%   {
+        width: 20%;
+}
+    100% {
+        transition: 3s ease-out;
+}
 }
