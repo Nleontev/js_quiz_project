@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Quicksand:wght@600&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    height: 95vh;
+    width: 70vw;
+    margin: 0 auto;
+    
+}
+.performance{
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+}
+.performance{
+    font-size: 30px
+}
+.chooseCharac{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.quizBody{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.column {
+    background-color: #fff;
+    flex: 1 1 0px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+.colMargin{
+    margin-left: 20px;
+}
+.inf{
+    width: 100px;
+  height: 30px;
+  background-color: red;
+  animation-name: play;
+  animation-duration: 4s;
+  border-radius: 20px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+@keyframes play {
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
