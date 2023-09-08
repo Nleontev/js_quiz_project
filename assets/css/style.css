@@ -121,9 +121,18 @@ h1{
     background-image: none;
 }
 .nextQuestion{
+    display: none;
     border: none;
     box-shadow: 1px 2px 1px 0.5px #bbb;
-    margin-top: 40px;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    outline: 0;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background: none;
+    font-family: 'Julius Sans One', sans-serif;
+   
 }
 .quizWrapper{
     display: none;
@@ -133,3 +142,27 @@ h1{
     height: 80%;
     align-items: center;
 }
+.win{
+    display: none;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+
+   
+  @media (min-width: 768px) and (max-width: 1024px) {
+   
+
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+  
+
+  @media (min-width: 320px) and (max-width: 480px) {
+ 
+    

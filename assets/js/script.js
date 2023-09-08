@@ -37,14 +37,19 @@ function updateQuiz(data){
     document.querySelector('.answer4').innerText = allAnswers[3]
     let answer =  document.querySelectorAll('.answer').forEach((option) => {
         option.addEventListener("click", () => {
-            console.log(queue)
+            
             if(queue === data.results.length-1){
                 document.querySelector(".quizWrapper").style.display = "none";
                 queue = 0;
-                // location.reload();
-                console.log(calculator)
+                let win = document.querySelector('.win').innerText = `Congratulations! Your score is ${calculator}`;
+                document.querySelector('.win').style.display = 'flex';
+                document.querySelector('.nextQuestion').style.display = 'inline';
+                document.querySelector('.nextQuestion').addEventListener('click', ()=>{
+                    location.reload()
+                })
+                
             }
-            if(option === rightAnswer){
+            if(option.innerText === data.results[queue].correct_answer){
                 calculator++;
             }
             queue++;
