@@ -153,16 +153,125 @@ h1{
 
   @media (min-width: 1025px) and (max-width: 1280px) {
 
-
-   
+    .performance{
+        
+        font-size: 25px;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
   @media (min-width: 768px) and (max-width: 1024px) {
    
-
-  
+    .container{
+        display: inline;
+       
+    }
+    .column{
+        margin: 10px auto;
+        width: 40%;
+        border-radius: none;
+    }
+    .colMargin{
+        
+    }
+    .chooseCharac{
+        height: 400px;
+    }
+    .quizBody{
+        height: 600px;
+    }
+}
   @media (min-width: 481px) and (max-width: 767px) {
-  
-  
-
+    .performance{
+        
+        font-size: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .rating{
+        font-size: 20px
+    }
+    .inf{
+        font-size: 20px;
+        height: 15px;
+    }
+    .container{
+        display: inline;
+       
+    }
+    .column{
+        margin: 10px auto;
+        width: 60%;
+        border-radius: none;
+    }
+    .colMargin{
+        
+    }
+    .chooseCharac{
+        height: 400px;
+    }
+    .quizBody{
+        height: 600px;
+    }
+    h2{
+        font-size: 20px;
+    }
+  }
   @media (min-width: 320px) and (max-width: 480px) {
- 
-    
+    .performance{
+        
+        font-size: 15px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .rating{
+        font-size: 15px
+    }
+    .inf{
+        font-size: 15px;
+        height: 10px;
+    }
+    .container{
+        display: inline;
+       
+    }
+    .column{
+        margin: 10px auto;
+        width: 60%;
+        border-radius: none;
+    }
+    .colMargin{
+        
+    }
+    .chooseCharac{
+        height: 400px;
+    }
+    .quizBody{
+        height: 600px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    label{
+        font-size: 12px;
+    }
+    option{
+        font-size: 10px;
+    }
+    .option_select{
+        font-size: 10px;
+    }
+    .thisButton{
+        font-size: 10px;
+
+    }
+    #question{
+        font-size: 10px;
+    }
+    .answer{
+        font-size: 10px;
+    }
+  } 
