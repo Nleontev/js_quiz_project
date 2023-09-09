@@ -36,7 +36,7 @@ No errors were found when passing through the official Jshint validatoк
 No errors were found when passing through the official (Jigsaw) validator
 
 # Unfixed Bugs
-In my opinion, I have no bugs left
+I have almost no bugs left
 
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
