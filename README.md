@@ -51,24 +51,42 @@ The live link can be found here - https://nleontev.github.io/js_quiz_project/
 
 # Credits
 Content
+
 Reminded myself how to deal with select
+
 https://stackoverflow.com/questions/31493382/html-input-for-many-different-options
+
 https://www.geeksforgeeks.org/how-to-get-selected-value-in-dropdown-list-using-javascript/
+
 Got all fonts from here
+
 https://fonts.google.com/
+
 Used this site to make better boarder
+
 https://getcssscan.com/css-box-shadow-examples
+
 I used this youtube videos to understand better with this api:(i didnt copy their code, used only to understand the main idea and have done everything myself)
+
 https://www.youtube.com/watch?v=SgJ_femmsfg
+
 https://www.youtube.com/watch?v=-cX5jnQgqSM
+
 i used this video to make beautiful statistics(i didnt copy their code, used only to understand the main idea and have done everything myself)
+
 https://www.youtube.com/watch?v=IXxE7V5RbNA&t=322s
+
 all api links were taken from this webpage 
+
 https://opentdb.com/api_config.php
+
 
 Media
 
 Background gradien color was taken from here
+
 https://webgradients.com/
+
 A few colors from my project were taken from here
+
 https://hookagency.com/blog/website-color-schemes-2020/
